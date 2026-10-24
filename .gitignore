@@ -2,3 +2,4 @@
 data/raw/
 __pycache__/
 test.py
+data/adults_all.csv

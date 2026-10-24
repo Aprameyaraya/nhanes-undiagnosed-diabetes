@@ -84,7 +84,7 @@ compare their sizes directly with the numeric ones.
 - Should race be an input? It improves the numbers, but a screening model that uses race can
   produce different risk for groups for reasons that data alone cannot explain, and race here
   may stand in for things I did not measure. I need to look at how the models perform within
-  each group before deciding.
+  each group before deciding. For now race is being dropped, as it isn't really a measurable property of a person. model 3 (age, BMI, family history, systolic BP) is the primary model and model 4 is a check. Model 5 stays to show what leaving out race costs.
 - Is the waist-versus-BMI difference real? Test a model with waist in place of BMI.
 - Are the predicted probabilities calibrated? I have not checked yet.
 
