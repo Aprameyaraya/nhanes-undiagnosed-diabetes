@@ -64,6 +64,7 @@ def clean(df):
     # adults only
     df = df[df["RIDAGEYR"] >= 20].copy()
     print("adults (20+):", len(df))
+    df.to_csv("data/adults_all.csv", index=False)
 
     # "refused" / "don't know" codes -> missing
     for c in ["DIQ010", "MCQ300C", "PAQ635", "PAQ650"]:
